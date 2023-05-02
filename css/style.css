@@ -23,3 +23,12 @@ main{
     height: calc(100vh - 160px);
     overflow: auto;
 }
+
+/* utility */
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    background-color: blueviolet;
+    border: 2px dashed white;
+}
