@@ -24,11 +24,41 @@ main{
     overflow: auto;
 }
 
+img{
+    display: block;
+    max-width: 100%;
+}
+
+/* main */
+
+.card{
+    position: relative;
+}
+
+.column{
+    flex-basis: calc(100% / 7);
+    padding: 6px 4px;
+}
+
+.info-card{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 8px 10px;
+}
+
 /* utility */
 
 .container{
-    width: 1400px;
+    max-width: 1400px;
     margin: 0 auto;
     background-color: blueviolet;
     border: 2px dashed white;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
 }
