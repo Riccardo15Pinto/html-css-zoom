@@ -10,27 +10,49 @@
 
 body{
     font-family: sans-serif;
+    background-color: black;
 }
 
 header{
-    height: 50px;
-    background-color: blue;
+    height: 70px;
 }
 
 footer{
     height: 80px;
-    background-color: beige;
+    background-color: #222222;
 }
 
 main{
-    background-color: aquamarine;
-    height: calc(100vh - 130px);
+    height: calc(100vh - 150px);
     overflow: auto;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
 
 img{
     display: block;
     max-width: 100%;
+}
+
+/* header */
+
+.view{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.view > *{
+    margin: 5px;
+}
+
+.view-element{
+    background-color: #4A4A4A;
+    padding: 5px 6px;
+    border-radius: 5px;
+    font-size: 15px;
 }
 
 /* main */
@@ -58,8 +80,6 @@ img{
 .container{
     max-width: 1700px;
     margin: 0 auto;
-    background-color: blueviolet;
-    border: 2px dashed white;
 }
 
 .row{
